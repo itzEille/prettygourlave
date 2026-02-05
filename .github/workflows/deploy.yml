@@ -1,0 +1,20 @@
+on: [push]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    name: deploy2nekoweb
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        
+      # your build step here
+        
+      - name: deploy2nekoweb
+        uses: indiefellas/deploy2nekoweb@main
+        with:
+          nekoweb-api-key: ${{ secrets.MY_NEKOWEB_KEY }}
+          nekoweb-domain: 'prettygourlave.nekoweb.org'
+          nekoweb-username: 'prettygourlave'
+          directory: 'pretty'
+
