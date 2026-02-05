@@ -11,9 +11,6 @@ jobs:
     
     steps:
 
-      - name: Fix dependency conflict
-        run: pip install "click<8.3.0" "typer[all]<0.13.0"
-
       - name: Checkout repository
         uses: actions/checkout@v4
 
@@ -22,12 +19,10 @@ jobs:
           mkdir -p ./build
           cp -r ./prettygourlave.nekoweb.org/* ./build
 
-      - name: Deploy to Nekoweb
-        uses: mp-pinheiro/nekoweb-deploy@main
+      - name: deploy2nekoweb
+        uses: indiefellas/deploy2nekoweb@main
         with:
-          API_KEY: ${{ secrets.MY_NEKOWE_KEY }}
-          BUILD_DIR: './build'
-          DEPLOY_DIR: '/'
-          CLEANUP: 'False'
-          DELAY: '0.5'
-          NEKOWEB_PAGENAME: 'prettygourlave'
+         nekoweb-api-key: ${{ secrets.MY_NEKOWEB_KEY }}
+         nekoweb-domain: 'prettygourlave.nekoweb.org'
+         nekoweb-username: 'prettygourlave'
+         directory: '/build'
