@@ -16,7 +16,7 @@ jobs:
       - name: Prepare build
         run: |
           mkdir -p ./build
-          cp -r ./main/* ./build
+          cp -r ./prettygourlave.nekoweb.org/* ./build
 
       - name: Deploy to Nekoweb
         uses: mp-pinheiro/nekoweb-deploy@main
