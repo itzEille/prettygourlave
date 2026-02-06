@@ -5,3 +5,7 @@ nav bar inspo https://www.reddit.com/r/css/comments/rtmmsq/i_created_some_css_na
         <lastfm-tracks user="fantasy1344" apikey="cd6e9802478a9d98267ba23df232a3ca" interval="60"></lastfm-tracks>
 
 https://scripted.neocities.org/musicplayer
+
+https://y2k.neocities.org/blinkies
+
+https://shishka.neocities.org/graphics/blinkies
