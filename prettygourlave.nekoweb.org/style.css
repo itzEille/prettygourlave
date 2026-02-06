@@ -65,7 +65,7 @@ button {
 }
 
 
-.grid-container > section,aside {
+.grid-container > section,aside,footer,header {
  color: #fcf2ff;
   border-color: #e0d0ff;
   border-style: solid;
@@ -94,7 +94,7 @@ button {
 }
 
 #guestbook > img:nth-child(1) {
-    height: 30px;
+    height: 0px;
 }
 
 .header { grid-area: header; 
@@ -111,7 +111,7 @@ button {
         overflow-y: auto;
 }
 
-.main { grid-area: main;}
+.main { grid-area: main; display: flex;}
          
 .footer { grid-area: footer;  padding: 20px; }
 
@@ -179,7 +179,7 @@ button {
 }
 
 #main-background {
-
+    display: flex;
     margin: 0px;
     border-radius: 10px;
     border-style: solid;
@@ -190,7 +190,8 @@ button {
 }
 
 #main{
-
+    display: flex;
+    flex-direction: column;
     border-style: solid;
     border-color: #e0d0ff;
     border-radius: 5px;
