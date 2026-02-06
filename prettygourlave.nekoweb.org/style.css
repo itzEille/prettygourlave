@@ -261,22 +261,27 @@ p {
     justify-content: space-between;
 
 }
-.tumblr {
+
+#socials-grid a{
     display: block;
     width: 88px;
     height: 31px;
-    background-image: url(imgs/tumblr-button-1..png);
+    width: 100%;
+}
+
+
+
+
+.tumblr {
+    background-image: url(imgs/buttons/tumblr-button-1..png);
 }
 
 .tumblr:hover {
-    background-image: url(imgs/tumblr-button2..png);
+    background-image: url(imgs/buttons/tumblr-button2..png);
 }
 
 .tik-tok {
-    display: block;
-    width: 88px;
-    height: 31px;
-    background-image: url(imgs/tiktok-button2.png);
+    background-image: url(imgs/buttons/tiktok-button2.png);
 }
 
 .tik-tok:hover {
@@ -284,50 +289,36 @@ p {
 }
 
 .pinterest {
-    display: block;
-    width: 88px;
-    height: 31px;
-    background-image: url(imgs/pinterest-button1.png);
+    background-image: url(imgs/buttons/pinterest-button1.png);
 }
 
 .pinterest:hover {
-    background-image: url(imgs/pinterest-button2.png);
+    background-image: url(imgs/buttons/pinterest-button2.png);
 }
 
 .letterboxd {
-    display: block;
-    width: 88px;
-    height: 31px;
-    background-image: url(imgs/letterboxd-button1.png);
+    background-image: url(imgs/buttons/letterboxd-button1.png);
 }
 
 .letterboxd:hover {
-    background-image: url(imgs/letterboxd-button2.png);
+    background-image: url(imgs/buttons/letterboxd-button2.png);
 }
 
 .spotify {
-    display: block;
-    width: 88px;
-    height: 31px;
-    background-image: url(imgs/spotify-button1.png);
+    background-image: url(imgs/buttons/spotify-button1.png);
 }
 
 .spotify:hover {
-    background-image: url(imgs/spotify-button2.png);
+    background-image: url(imgs/buttons/spotify-button2.png);
 }
 
 .serializd {
-    display: block;
-    width: 88px;
-    height: 31px;
-    background-image: url(imgs/serializd-button1.png);
+    background-image: url(imgs/buttons/serializd-button1.png);
 }
 
 .serializd:hover {
-    background-image: url(imgs/serializd-button2.png);
+    background-image: url(imgs/buttons/serializd-button2.png);
 }
-
-
 
 #clap img{
     display: block;
@@ -348,6 +339,26 @@ p {
     display: none;
   }  
    
+}
+
+@media (max-width: 1000px) {
+    .tumblr{background-image: url(imgs/buttons/tumblr-short-button-1.png);}
+    .tumblr:hover{background-image: url(imgs/buttons/tumblr-short-button-2.png);}
+
+    .tik-tok{background-image: url(imgs/buttons/tiktok-short-button-1.png);}
+    .tik-tok:hover{background-image: url(imgs/buttons/tiktok-short-button-2.png);}
+
+    .pinterest{background-image: url(imgs/buttons/pinterest-short-button-1.png);}
+    .pinterest:hover{background-image: url(imgs/buttons/pinterest-short-button-2.png);}
+
+    .letterboxd{background-image: url(imgs/buttons/letterboxd-short-button-1.png);}
+    .letterboxd:hover{background-image: url(imgs/buttons/letterboxd-short-button-2.png);}
+
+    .spotify{background-image: url(imgs/buttons/spotify-short-button-1.png);}
+    .spotify:hover{background-image: url(imgs/buttons/spotify-short-button-2.png);}
+
+    .serializd{background-image: url(imgs/buttons/serializd-short-button-1.png);}
+    .serializd:hover{background-image: url(imgs/buttons/serializd-short-button-2.png);}
 }
 
 lastfm-tracks {
