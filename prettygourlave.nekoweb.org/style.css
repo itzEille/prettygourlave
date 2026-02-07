@@ -132,6 +132,10 @@ p {
 
 #iconandtext{ display: flex; align-items: center; }
 
+#iconandtext h2{
+    color: #ffffff;
+}
+
 #img1 {height: 50px; padding-right: 20px; margin: 0;}
 
 #iconandtext > h2:nth-child(2) {margin: 0; font-family:'Twinkle Star';}
@@ -183,6 +187,7 @@ p {
   transition: background-color 0.2s, color 0.2s,  letter-spacing 0.2s;
 }
 
+
 #main-background {
     display: flex;
     margin: 0px;
@@ -191,7 +196,7 @@ p {
     border-image: url(imgs/borderimg1.png) 30 round;
     border-image-width: 20px;
     padding: 15px;
-
+    width: 100%;
 }
 
 #main{
@@ -201,6 +206,7 @@ p {
     border-color: #e0d0ff;
     border-radius: 5px;
     background-color: rgba(247, 240, 255, 0.271);
+    width: 100%;
 }
 
 #main-heading {
