@@ -6,8 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="../imgs/favicon.ico" rel="icon" type="image/x-icon" />
         <title>prettygourlave</title>
-        <link rel="stylesheet" href="../style.css?nocache=6">
-        <script src="../lastfm.js" type="module"></script> 
+        <link rel="stylesheet" href="../../style.css?nocache=7"">
+        <script src="../../lastfm.js" type="module"></script> 
         <!-------fonts------->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,7 +30,7 @@
                 <div id="counter" align=center><a href='https://www.counter12.com'><img src='https://www.counter12.com/img-b5xZ6x32BCwdW784-46.gif' border='0' alt='free counter'></a><script type='text/javascript' src='https://www.counter12.com/ad.js?id=b5xZ6x32BCwdW784'></script></div>
                 <a id="mood" href="https://www.imood.com/users/prettygourlave">im currently feeling... <img src="https://moods.imood.com/display/uname-prettygourlave/imood.gif" alt="The current mood of prettygourlave at www.imood.com" border="0"></a>
                 <div id="guestbook">
-                    <img src="../imgs/cat1.gif" aria-hidden="true"/>
+                    <img src="../../imgs/cat1.gif" aria-hidden="true"/>
                     <a href="https://prettygourlave.atabook.org/">sign my guest book!</a>
                 </div>
                 <div id="glenplayer02">
@@ -42,15 +42,15 @@
                     <div class="labeltext"></div>
                 </div><!--end music player-->
         
-        <audio id="tune" src="../House Tour_spotdown.org.mp3""audio"></audio>
+             <audio id="tune" src="../../House Tour_spotdown.org.mp3""audio"></audio>
 
         
-        <div class="labeltext"> </div>
+                 <div class="labeltext"> </div>
             </section>
             <header class="header">
                     <div class="main-header">
-                        <a href="../index.html"> <div id="iconandtext">
-                        <img id="img1" src="../imgs/header-icon.gif" aria-hidden="true"/>
+                        <a href="../../index.html"> <div id="iconandtext">
+                        <img id="img1" src="../../imgs/header-icon.gif" aria-hidden="true"/>
                         <h2>welcome to prettygourlave!</h2>
                         </div></a>
                     </div>
@@ -111,17 +111,17 @@
             <footer class="footer">
                 <h3 class="widget-header">hotlinks</h3>
                 <marquee behavior="scroll" direction="left" scrollamount="15" class="blinkies">
-                    <a href="https://shishka.neocities.org"></a><img src="../imgs/blinkes/nerd-and-proud.gif" alt="nerd-and-proud-blinky"/></a>
-                    <a href="https://y2k.neocities.org"></a><img src="../imgs/blinkes/purple.gif" alt="i love purple blinky"/></a>
-                    <a href="https://y2k.neocities.org"></a><img src="../imgs/blinkes/weird.gif" alt="im not weird, im gifted blinky"/></a>
-                    <a href="https://blinkies.cafe/"></a><img src="../imgs/blinkes/cinderella.gif" alt="cinderella"/></a>
-                    <a href="https://y2k.neocities.org/blinkies"></a><img src="../imgs/blinkes/daydreamer.gif" alt="daydreamer"/></a>
-                    <a href="https://y2k.neocities.org/blinkies"></a><img src="../imgs/blinkes/chocolate.gif" alt="im a chocoholic"/></a>
-                    <a href="https://plasticdino.neocities.org/"></a><img src="../imgs/blinkes/css.gif" alt="i heart css"/></a>
-                    <a href="https://petrapixel.neocities.org/about/blinkies"></a><img src="../imgs/blinkes/minecraft.gif" alt="minecraft"/></a>
-                    <a href="https://petrapixel.neocities.org/about/blinkies"></a><img src="../imgs/blinkes/diamonds.gif" alt="diamonds are a girls best friends"/>
-                    <a href="https://petrapixel.neocities.org/about/blinkies"><img src="../imgs/blinkes/smoking.gif" alt="smoking sucks"/></a>
-                    <a href="https://www.deviantart.com/radiotrophic/art/PROUD-SIMMER-blinkie-F2U-1077113565"><img src="../imgs/blinkes/simmer.gif" alt="proud simmer" />
+                    <a href="https://shishka.neocities.org"></a><img src="../../imgs/blinkes/nerd-and-proud.gif" alt="nerd-and-proud-blinky"/></a>
+                    <a href="https://y2k.neocities.org"></a><img src="../../imgs/blinkes/purple.gif" alt="i love purple blinky"/></a>
+                    <a href="https://y2k.neocities.org"></a><img src="../../imgs/blinkes/weird.gif" alt="im not weird, im gifted blinky"/></a>
+                    <a href="https://blinkies.cafe/"></a><img src="../../imgs/blinkes/cinderella.gif" alt="cinderella"/></a>
+                    <a href="https://y2k.neocities.org/blinkies"></a><img src="../../imgs/blinkes/daydreamer.gif" alt="daydreamer"/></a>
+                    <a href="https://y2k.neocities.org/blinkies"></a><img src="../../imgs/blinkes/chocolate.gif" alt="im a chocoholic"/></a>
+                    <a href="https://plasticdino.neocities.org/"></a><img src="../../imgs/blinkes/css.gif" alt="i heart css"/></a>
+                    <a href="https://petrapixel.neocities.org/about/blinkies"></a><img src="../../imgs/blinkes/minecraft.gif" alt="minecraft"/></a>
+                    <a href="https://petrapixel.neocities.org/about/blinkies"></a><img src="../../imgs/blinkes/diamonds.gif" alt="diamonds are a girls best friends"/>
+                    <a href="https://petrapixel.neocities.org/about/blinkies"><img src="../../imgs/blinkes/smoking.gif" alt="smoking sucks"/></a>
+                    <a href="https://www.deviantart.com/radiotrophic/art/PROUD-SIMMER-blinkie-F2U-1077113565"><img src="../../imgs/blinkes/simmer.gif" alt="proud simmer" />
                 </marquee>
             </footer>
         </div>
