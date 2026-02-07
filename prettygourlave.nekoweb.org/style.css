@@ -80,6 +80,7 @@ p {
 
 .stat-bar { grid-area: stat-bar;}
 
+
 #stat-bar {
     display: flex;
     align-items: center;
@@ -361,6 +362,16 @@ p {
     .serializd:hover{background-image: url(imgs/buttons/serializd-short-button-2.png);}
 }
 
+#tamaNOTchi-section{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#tamaNOTchi{
+    width: 100%;
+}
+
 lastfm-tracks {
   box-sizing: border-box;
   border: 1px solid #000;
@@ -422,3 +433,5 @@ text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000, 0 0;/* color of s
 .blinkies img {
     height: 20px;
 }
+
+h3.widget-header {margin: 0px;}
