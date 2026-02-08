@@ -466,6 +466,15 @@ h3.widget-header {margin: 0px;}
 }
 
 @media (max-width: 1199px) {
+    #about-megrid1 {
+       grid-template:
+        'list'
+        'picture';
+    }
+}
+
+/*
+@media (max-width: 1199px) {
     #about-me-image {
         width: 300px;
     }
@@ -476,6 +485,8 @@ h3.widget-header {margin: 0px;}
         width: 200px;
     }
 }
+*/
+
 
 
 #currents-grid{
@@ -506,6 +517,7 @@ h3.widget-header {margin: 0px;}
     font-size: 30px;
     flex-grow: 1;
     margin: 10px;
+    flex-basis: 0;
 
 }
 
@@ -513,3 +525,7 @@ h3.widget-header {margin: 0px;}
     margin: 0px;
 }
 
+.subtitle {
+    font-size: xx-small;
+    margin: 0px;
+}
