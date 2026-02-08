@@ -96,7 +96,7 @@ const headerEl = `
             </section>
             <header class="header">
                     <div class="main-header">
-                       <a href="../prettygourlave.nekoweb.org/index.html"> <div id="iconandtext">
+                       <a href="${nesting}/index.html"> <div id="iconandtext">
                         <img id="img1" src="${nesting}/imgs/header-icon.gif" aria-hidden="true"/>
                         <h2>welcome to prettygourlave!</h2>
                         </div></a>
@@ -163,6 +163,7 @@ const footerEl = `
                     <a href="https://www.deviantart.com/radiotrophic/art/PROUD-SIMMER-blinkie-F2U-1077113565"><img src="${nesting}/imgs/blinkes/simmer.gif" alt="proud simmer" />
                 </marquee>
                                  <a href="https://nekoweb.org/"><img src="https://nekoweb.org/assets/buttons/button1.gif"></a><!-- button by neconotneko.nekoweb.org -->
+                                 <a href="https://petrapixel.neocities.org/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/petracoding/petrapixel.neocities.org@latest/public/assets/img/linkback.gif" alt="petrapixel"></a>
             </footer>
             
 `;

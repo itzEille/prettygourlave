@@ -112,7 +112,7 @@ p {
         padding: 20px;
         display: flex;
         flex-direction: column;
-        max-height: 550px;
+        max-height: 700px;
         overflow-y: auto;
 }
 
@@ -207,6 +207,8 @@ p {
     border-radius: 5px;
     background-color: rgba(247, 240, 255, 0.271);
     width: 100%;
+    max-height: 700px;
+    overflow-y: auto;
 }
 
 #main-heading {
@@ -274,6 +276,7 @@ p {
     width: 88px;
     height: 31px;
     width: 100%;
+    max-width: 88px;
 }
 
 
@@ -441,3 +444,72 @@ text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000, 0 0;/* color of s
 }
 
 h3.widget-header {margin: 0px;}
+
+
+#about-megrid1{
+    display: grid;
+    grid-template:
+    'list picture';
+}
+
+
+#about-me-list { grid-area: list; }
+
+#about-me-image {
+    grid-area: picture; 
+    margin: 20px;
+    margin-top: 60px;
+    margin-left: 30px;
+    width: 400px;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+@media (max-width: 1199px) {
+    #about-me-image {
+        width: 300px;
+    }
+}
+
+@media (max-width: 950) {
+    #about-me-image {
+        width: 200px;
+    }
+}
+
+
+#currents-grid{
+    display: grid;
+    grid-template:
+    'list picture';
+}
+
+#current-shows { grid-area: shows; }
+#current-reads { grid-area: bookss; }
+#current-shows { grid-area: shows; }
+
+#currents-flex {
+    display: flex;
+    gap: 20px;   
+}
+
+.currents-header {
+    margin: 0px;
+}
+
+#currents-flex section {
+    color: #fcf2ff;
+    border-color: #e0d0ff;
+    border-style: solid;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30px;
+    flex-grow: 1;
+    margin: 10px;
+
+}
+
+#current-reads{
+    margin: 0px;
+}
+
