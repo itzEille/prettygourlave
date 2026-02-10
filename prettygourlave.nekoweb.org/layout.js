@@ -104,7 +104,7 @@ const headerEl = `
                         <ul class="header-nav">
                             <li><a href="${nesting}/pages/about-me">about me</a></li>
                             <li><a href="${nesting}/pages/blog">blog</a></li>
-                            <li><a href="/js/">JavaScript</a></li>
+                            <li><a href="${nesting}/pages/recents">recents</a></li>
                             <li><a href="${nesting}/pages/creds">credits</a></li>
                         </ul>         
             </header>    

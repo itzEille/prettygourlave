@@ -58,7 +58,7 @@ async function createMovieCard(movie){
     movieCard.classList.add("movie_item")
 
     movieCard.innerHTML = `
-            <img class="current_movie_img" src="https://image.tmdb.org/t/p/original/${poster_path}" alt="${title}"></img> 
+            <a href="https://www.themoviedb.org/movie/${id}"><img class="current_movie_img" src="https://image.tmdb.org/t/p/original/${poster_path}" alt="${title}"></img> </a>
             <div movie_text>
             <div class="movie_header_${header_type}"><h1>${title}</h1> <p>${runtime}m</p></div>
             <p>${desc}<p>
@@ -114,7 +114,7 @@ async function createShowCard(show){
     showCard.classList.add("show_item")
 
     showCard.innerHTML = `
-            <img class="current_show_img" src="https://image.tmdb.org/t/p/original/${poster_path}" alt="${name}"></img> 
+            <a href="https://www.themoviedb.org/tv/${id}"><img class="current_show_img" src="https://image.tmdb.org/t/p/original/${poster_path}" alt="${name}"></img> </a>
             <div show_text>
             <div class="show_header_${header_type}"> <h1>${name}</h1> <p>${number_of_seasons}S</p> </div>
             <p>${desc}<p>
