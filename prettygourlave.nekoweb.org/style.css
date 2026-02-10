@@ -53,7 +53,9 @@ p {
     margin: 10px;
 }
 
-
+.footer_text {
+    font-size: small;
+}
 
 .grid-container {
   display: grid;
@@ -473,27 +475,8 @@ h3.widget-header {margin: 0px;}
     }
 }
 
-/*
-@media (max-width: 1199px) {
-    #about-me-image {
-        width: 300px;
-    }
-}
-
-@media (max-width: 950) {
-    #about-me-image {
-        width: 200px;
-    }
-}
-*/
 
 
-
-#currents-grid{
-    display: grid;
-    grid-template:
-    'list picture';
-}
 
 #current-shows { grid-area: shows; }
 #current-reads { grid-area: bookss; }
@@ -501,8 +484,24 @@ h3.widget-header {margin: 0px;}
 
 #currents-flex {
     display: flex;
-    gap: 20px;   
+    gap: 10px;   
 }
+
+
+@media (max-width: 950px) {
+
+    #currents-flex {
+        flex-direction: column;
+    }
+    #movieDiv {
+    display: flex;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+}
+
 
 .currents-header {
     margin: 0px;
@@ -518,6 +517,8 @@ h3.widget-header {margin: 0px;}
     flex-grow: 1;
     margin: 10px;
     flex-basis: 0;
+    max-height: 350px;
+    overflow-y: scroll;
 
 }
 
@@ -529,3 +530,152 @@ h3.widget-header {margin: 0px;}
     font-size: xx-small;
     margin: 0px;
 }
+
+#movieDiv {
+    display: flex;
+    max-width: 100%;
+    overflow-x: hidden;
+    flex-direction: column;
+}
+
+
+.movie_item img{
+    width: auto;
+    height: 100px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.movie_item h1{
+    margin: 0px;
+    margin-left: 10px;
+}
+
+
+.movie_item {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.movie_item p {
+    margin: 0px;
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: xx-small;
+    text-align: justify;
+}
+
+
+.movie_header_regular {
+    font-size: medium;
+    margin-right: 10px;
+    display: flex;
+    text-align: left;
+    align-items: baseline;
+}
+
+.movie_header_small {
+    font-size: small;
+    margin-right: 10px;
+    display: flex;
+    text-align: left;
+    align-items: baseline;
+}
+
+
+/*shows*/
+.show_item img{
+    width: auto;
+    height: 100px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.show_item h1{
+    margin: 0px;
+    margin-left: 10px;
+}
+
+
+.show_item {
+    display: flex;
+}
+
+.show_item p {
+    margin: 0px;
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: xx-small;
+    text-align: justify;
+}
+
+.show_header {
+    display: flex;
+    align-items: center;
+}
+
+.show_header_regular  {
+    font-size: medium;
+    margin-right: 10px;
+    text-align: left;
+    display: flex;
+    align-items: baseline;
+}
+
+.show_header_small {
+    font-size: small;
+    margin-right: 10px;
+    text-align: left;
+    display: flex;
+    align-items: baseline;
+}
+
+
+#goodreads {
+    border-width: 0px;
+}
+
+.gr_custom_container_1770696272 {
+    /* customize your Goodreads widget container here*/
+    padding: 10px 5px 10px 5px;
+    color: #000000;
+  }
+  .gr_custom_header_1770696272 {
+    /* customize your Goodreads header here*/
+    width: 100%;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: small;
+  }
+  .gr_custom_each_container_1770696272 {
+    /* customize each individual book container here */
+    width: 100%;
+    clear: both;
+    margin-bottom: 10px;
+    overflow: auto;
+    padding-bottom: 4px;
+  }
+  .gr_custom_book_container_1770696272 {
+    /* customize your book covers here */
+    overflow: hidden;
+    height: 60px;
+      float: left;
+      margin-right: 4px;
+      width: 39px;
+  }
+  .gr_custom_author_1770696272 {
+    /* customize your author names here */
+    font-size: 10px;
+  }
+  .gr_custom_tags_1770696272 {
+    /* customize your tags here */
+    font-size: 10px;
+    color: gray;
+  }
+  .gr_custom_rating_1770696272 {
+    /* customize your rating stars here */
+    float: right;
+  }
