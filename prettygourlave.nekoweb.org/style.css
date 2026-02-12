@@ -500,6 +500,7 @@ h3.widget-header {margin: 0px;}
 #currents-flex {
     display: flex;
     gap: 10px;
+    flex-direction: row;
    
 }
 
