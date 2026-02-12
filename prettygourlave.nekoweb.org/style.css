@@ -102,6 +102,8 @@ p {
     display: flex;
     align-items: center;
     column-gap: 15px;
+    overflow-x: scroll;
+    max-height: 50px;
 }
 
 

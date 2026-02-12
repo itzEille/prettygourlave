@@ -75,6 +75,7 @@ const nesting = getNestingString();
 // You don't need to use the <header> element, but I recommend it.
 const headerEl = `
              <section id="stat-bar" class="widget">
+                <p> This Page Has <!--# views --> Views, <!--# updates --> Updates, and <!--# followers --> Followers!</p>
                 <a id="mood" href="https://www.imood.com/users/prettygourlave">im currently feeling... <img src="https://moods.imood.com/display/uname-prettygourlave/imood.gif" alt="The current mood of prettygourlave at www.imood.com" border="0"></a>
                 <div id="guestbook">
                     <img src="${nesting}/imgs/cat1.gif" aria-hidden="true"/>
