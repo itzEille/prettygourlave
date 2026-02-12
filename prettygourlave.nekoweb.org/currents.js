@@ -13,6 +13,62 @@ const api_key = "${{ secret.MY_TMDB_API_KEY }}"
 const movie_api_url = `https://api.themoviedb.org/3/account/${account_id}/watchlist/movies`
 const tv_api_url = `https://api.themoviedb.org/3/account/${account_id}/watchlist/tv`
 
+async function getShows() { 
+    const response = await fetch(tv_api_url, options);
+    const data = await response.json();
+    console.log(data)
+
+    
+    for (const show of data.results) {
+        const showCard = await createShowCard(show); 
+        showDiv.appendChild(showCard); 
+    }
+}
+
+
+async function createShowCard(show){
+    const { name, poster_path, overview, id} = show;
+    const showCard = document.createElement("div");
+
+    const response = await fetch(`https://api.themoviedb.org/3/tv/${id}?api_key=${api_key}`)
+    const moreData = await response.json();
+    console.log(moreData)
+    const {tagline, number_of_seasons} = moreData
+ 
+    let desc = "error"
+
+
+    if (overview.length >= 200) {
+      desc = tagline
+      console.log(desc)
+    }
+    else {
+      desc = overview
+       console.log(desc)
+    }
+
+    let header_type = "error"
+
+    if (name.length >= 10) {
+      header_type = "small"
+    }
+    else
+      header_type = "regular"
+
+    showCard.classList.add("show_item")
+
+    showCard.innerHTML = `
+            <a href="https://www.themoviedb.org/tv/${id}"><img class="current_show_img" src="https://image.tmdb.org/t/p/original/${poster_path}" alt="${name}"></img> </a>
+            <div show_text>
+            <div class="show_header_${header_type}"> <h1>${name}</h1> <p>${number_of_seasons}S</p> </div>
+            <p>${desc}<p>
+            </div>
+
+    `;
+    return showCard;
+
+}
+
 
 async function getMovies() { 
     const response = await fetch(movie_api_url, options);
@@ -69,61 +125,6 @@ async function createMovieCard(movie){
 
 }
 
-async function getShows() { 
-    const response = await fetch(tv_api_url, options);
-    const data = await response.json();
-    console.log(data)
-
-    
-    for (const show of data.results) {
-        const showCard = await createShowCard(show); 
-        showDiv.appendChild(showCard); 
-    }
-}
-
-
-async function createShowCard(show){
-    const { name, poster_path, overview, id} = show;
-    const showCard = document.createElement("div");
-
-    const response = await fetch(`https://api.themoviedb.org/3/tv/${id}?api_key=${api_key}`)
-    const moreData = await response.json();
-    console.log(moreData)
-    const {tagline, number_of_seasons} = moreData
- 
-    let desc = "error"
-
-
-    if (overview.length >= 200) {
-      desc = tagline
-      console.log(desc)
-    }
-    else {
-      desc = overview
-       console.log(desc)
-    }
-
-    let header_type = "error"
-
-    if (name.length >= 10) {
-      header_type = "small"
-    }
-    else
-      header_type = "regular"
-
-    showCard.classList.add("show_item")
-
-    showCard.innerHTML = `
-            <a href="https://www.themoviedb.org/tv/${id}"><img class="current_show_img" src="https://image.tmdb.org/t/p/original/${poster_path}" alt="${name}"></img> </a>
-            <div show_text>
-            <div class="show_header_${header_type}"> <h1>${name}</h1> <p>${number_of_seasons}S</p> </div>
-            <p>${desc}<p>
-            </div>
-
-    `;
-    return showCard;
-
-}
 
 getShows()
 getMovies()

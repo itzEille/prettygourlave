@@ -162,7 +162,7 @@ const footerEl = `
                     <a href="https://petrapixel.neocities.org/about/blinkies"><img src="${nesting}/imgs/blinkes/smoking.gif" alt="smoking sucks"/></a>
                     <a href="https://www.deviantart.com/radiotrophic/art/PROUD-SIMMER-blinkie-F2U-1077113565"><img src="${nesting}/imgs/blinkes/simmer.gif" alt="proud simmer" />
                 </marquee>
-                <p class="footer_text"> most of the photos on this site are not mines! i did my best to credit everything i could but sometimes it was hard to veiw all the credits <a href="${nesting}/pages/creds">here</a> if i didn't credit you can eggase me</p>
+                <p class="footer_text"> most of the photos on this site are not mines! i did my best to credit everything i could but sometimes it was hard. to view all the credits <a href="${nesting}/pages/creds">here</a></p>
                 <a href="https://nekoweb.org/"><img src="https://nekoweb.org/assets/buttons/button1.gif"></a><!-- button by neconotneko.nekoweb.org -->
                 <a href="https://petrapixel.neocities.org/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/petracoding/petrapixel.neocities.org@latest/public/assets/img/linkback.gif" alt="petrapixel"></a>
             </footer>

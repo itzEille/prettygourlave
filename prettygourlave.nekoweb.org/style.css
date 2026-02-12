@@ -7,11 +7,16 @@ body {
 
 h1{
     font-family:'Twinkle Star';
-    font-size: 1em;
+    font-size: 1.7em;
+    margin: 0px;
+    padding-left: 15px;
 }
 h2{
     font-family: 'Twinkle Star';
     margin: 5px;
+    padding-left: 15px;
+    text-align: left;
+
 }
 h3{
     text-align: left;
@@ -494,23 +499,11 @@ h3.widget-header {margin: 0px;}
 
 #currents-flex {
     display: flex;
-    gap: 10px;   
+    gap: 10px;
+   
 }
 
 
-@media (max-width: 950px) {
-
-    #currents-flex {
-        flex-direction: column;
-    }
-    #movieDiv {
-    display: flex;
-    max-width: 100%;
-    overflow-x: hidden;
-}
-
-
-}
 
 
 .currents-header {
