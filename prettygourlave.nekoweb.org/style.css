@@ -684,3 +684,17 @@ h3.widget-header {margin: 0px;}
     /* customize your rating stars here */
     float: right;
   }
+
+  #bottom{
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 5px;
+    position: fixed;
+    bottom: 0px;
+    display: flex;
+    border-color: #d6aff8;
+    background-color:#e0d0ff;
+}
+.follow-frame{
+    margin-top: 7px;
+}
