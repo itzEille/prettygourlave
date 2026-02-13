@@ -247,6 +247,26 @@ p {
     height: 60px;
 }
 
+
+#communites{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#communites section{
+    border-width: 1.7px;
+    border-style: solid;
+    border-radius: 3px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    margin: 10px;
+    max-height: 200px;
+    overflow-y: scroll;
+    width: 50px;
+}
+
+
+
 .sidebar > h2:nth-child(1) {border-style: solid; border-radius: 0.2em; }
 
 #mood {font-size: 0.7em;}

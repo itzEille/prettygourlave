@@ -128,9 +128,22 @@ const headerEl = `
                     <!-- FC2 Clap tag ends here -->
                     <img src="https://64.media.tumblr.com/ad1659aa29573da35d39fdabaab184d0/4af7bebb5f2971a8-9f/s250x400/f054c2a20fa8293f2d1ebfa4cafb59c5476ad969.gifv" alt="decor trail">
                 </section>
+                <h4 class="widget-header">my tamaNOTchi's!</h4>
                 <section id="tamaNOTchi-section" class="widget">
                     <a class="tamaNOTchi" href="https://tamanotchi.world/30102c"><img src="https://tamanotchi.world/i2/30102" alt="It's tamaNOTchi! Click to feed!"></a>
                     <a class="tamaNOTchi" href="https://tamanotchi.world/29219c"><img src="https://tamanotchi.world/i2/29219" alt="It's tamaNOTchi! Click to feed!"></a>
+                </section>
+                <h4 class="widget-header">my to-do list</h4>
+                <section id="to-do-list" class="widget">
+                    <ul>
+                    <li>make new girl fanlisttings<li>
+                    <li>make abbott elemetary fanlistings</li>
+                    <li> make the lunar chronicles fanlistings</li>
+                    <li> make debs fanlisting </li>
+                    <li>make but im a cheerleader fanlisting</li>
+                    <li> make my time at portia fanlisting<li>
+                    <li> make princess diares fanlisting</li>
+                    </ul>
                 </section>
                 <h4 class="widget-header">my music history!</h4>
                 <section id="lastfm" class="widget">
