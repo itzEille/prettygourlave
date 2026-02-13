@@ -136,13 +136,14 @@ const headerEl = `
                 <h4 class="widget-header">my to-do list</h4>
                 <section id="to-do-list" class="widget">
                     <ul>
-                    <li>make new girl fanlisttings<li>
+                    <li>make new girl fanlisttings</li>
                     <li>make abbott elemetary fanlistings</li>
                     <li> make the lunar chronicles fanlistings</li>
                     <li> make debs fanlisting </li>
                     <li>make but im a cheerleader fanlisting</li>
-                    <li> make my time at portia fanlisting<li>
+                    <li> make my time at portia fanlisting</li>
                     <li> make princess diares fanlisting</li>
+                    <li> make bi-kipedia</li>
                     </ul>
                 </section>
                 <h4 class="widget-header">my music history!</h4>

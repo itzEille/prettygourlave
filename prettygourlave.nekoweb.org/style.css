@@ -718,3 +718,8 @@ h3.widget-header {margin: 0px;}
 .follow-frame{
     margin-top: 7px;
 }
+
+.letterboxd-embed-tc-rating {
+        color: #ffffff;
+        font-size: 1.2rem;
+    }
