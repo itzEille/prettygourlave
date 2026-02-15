@@ -109,7 +109,7 @@ const headerEl = `
                              <div class="dropdown">
                             <li><a href="/">more</a></li>
                             <div class="dropdown-content">
-                            <a href="${nesting}/pages/bi-wiki/bi-wiki.html">bi-wiki</a>
+                            <a href="${nesting}/pages/bi-wiki/">bi-wiki</a>
                             <a href="#">Link 2</a>
                             <a href="#">Link 3</a>
                             </div>
