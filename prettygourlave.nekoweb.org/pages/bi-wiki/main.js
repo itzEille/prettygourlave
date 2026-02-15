@@ -135,7 +135,7 @@ function fetch_file(file, callback) {
         callback(cached_files[file]);
     } else {
         fetch_markdown(file, function(content) {
-            var processed = marked(content);
+            var processed = marked.parse(content);
             cached_files[file] = processed;
             callback(processed);
         });
