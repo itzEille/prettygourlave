@@ -12,6 +12,15 @@ ul {
 ol {
     list-style: decimal;
 }
+#back-to-prettygourlave {
+    font-size: small;
+    color: #bb81e4;
+}
+#back-to-prettygourlave:hover {
+    font-size: small;
+    color: #63407c;
+}
+
 
 /* Main content */
 #main {
@@ -38,7 +47,7 @@ ol {
 
 #main h2::before {
     content: '\00a0';
-    background: #444;
+    background: #d428c0;
     position: absolute;
     left: -3rem;
     right: -3rem;
@@ -47,7 +56,7 @@ ol {
 }
 
 #main h2 {
-    color: #CBB7A7;
+    color: #252638;
     margin: -2rem 0 4rem 0;
     padding: 4rem 0 0 0;
     text-shadow: 1px 1px #333;
@@ -93,7 +102,7 @@ blockquote {
 }
 
 .brand a:hover {
-    color: #1eaedb;
+    color: #3419a9;
 }
 
 /* nav bar */
@@ -120,7 +129,7 @@ ul.nav li{
     text-decoration: none;
     display: inline-block;
     height: 100%;
-    color: #1EAEDB;
+    color: #ce46bc;
     display: inline-block;
     position: relative;
     cursor: pointer;
@@ -162,7 +171,7 @@ ul.nav li{
 /* nav button */
 .nav-button, .nav-button:focus {
     margin: 0;
-    color: #1EAEDB;
+    color: #ce46bc;
     padding: 0 1em;
     transition: color .2s ease;
     border: none;
@@ -241,4 +250,12 @@ footer {
  * Utility class */
 .hide {
     display: none;
+}
+
+
+#content-image{
+    width: 100%;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #33334e;
 }
