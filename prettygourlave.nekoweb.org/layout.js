@@ -106,6 +106,13 @@ const headerEl = `
                             <li><a href="${nesting}/pages/blog">blog</a></li>
                             <li><a href="${nesting}/pages/recents">recents</a></li>
                             <li><a href="${nesting}/pages/creds">credits</a></li>
+                             <div class="dropdown">
+                            <li><a href="/">more</a></li>
+                            <div class="dropdown-content">
+                            <a href="${nesting}/pages/bi-wiki">bi-wiki</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                            </div>
                         </ul>         
             </header>    
                        <aside class="sidebar">
