@@ -150,7 +150,8 @@ const headerEl = `
                     <li>make but im a cheerleader fanlisting</li>
                     <li> make my time at portia fanlisting</li>
                     <li> make princess diares fanlisting</li>
-                    <li> make bi-kipedia</li>
+                    <li> make the pitt fanlisting </li>
+                    <li> make gen v fanlisting </li>
                     </ul>
                 </section>
                 <h4 class="widget-header">my music history!</h4>
