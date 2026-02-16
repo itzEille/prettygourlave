@@ -110,8 +110,8 @@ const headerEl = `
                             <li><a href="/">more</a></li>
                             <div class="dropdown-content">
                             <a href="${nesting}/pages/bi-wiki/">bi-wiki</a>
-                            <a href="#">Link 2</a>
-                            <a href="#">Link 3</a>
+                            <a href="${nesting}/pages/my-walls">my walls</a>
+                            <a href="${nesting}/pages/fanlistings">fanlistings</a>
                             </div>
                         </ul>         
             </header>    

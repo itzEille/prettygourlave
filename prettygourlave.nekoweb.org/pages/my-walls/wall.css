@@ -1,0 +1,38 @@
+body{
+    background-image: url(http://cdn.backgroundhost.com/backgrounds/subtlepatterns/bedge_grunge.png);
+    font-family: 'Fredoka';
+}
+
+h1 {
+    text-align: center;
+}
+p{text-align: center;}
+
+.wall {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.album img {
+    width: 200px;
+    padding: 10px;
+}
+
+.album img:hover {
+    width: 225px;
+    transition: all 0.1s;
+}
+
+button {
+    background-color: rgb(202, 174, 227);
+    padding: 5px;
+    border-radius: 3px;
+    font-family: 'Fredoka';
+}
+
+button:hover {
+     background-color: rgb(160, 91, 219);
+     transition: background-color 0.1s;
+}
