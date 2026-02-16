@@ -161,6 +161,7 @@ const headerEl = `
                 <section class="widget">
                     <iframe width="100%" height="250" scrolling="yes" src="https://gifypet.neocities.org/pet/pet.html?name=Fancy&dob=1770342858&gender=f&element=Water&pet=cat.gif&map=night.gif&background=paper.jpg&tablecolor=%23e0d0ff&textcolor=%23a577ff" frameborder="0"></iframe>
                 </section>
+                <section
             </aside>
 	
 `;
