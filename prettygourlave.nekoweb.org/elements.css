@@ -32,7 +32,7 @@
 
 /* Style for your post box (must start with ".post-box") */
 .post-box {
-    background-color: #1e0c32;
+    background-image: url(imgs/purple-bows.gif);
     border-image-width: 20px;
     border-image: url(imgs/borderimg1.png) 30 round;
     padding: 15px;
