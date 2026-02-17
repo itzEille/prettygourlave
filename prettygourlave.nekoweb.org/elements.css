@@ -26,19 +26,19 @@
 }
 
  @font-face {
-  font-family: Twinkle-Star;
+  font-family: TwinkleStar;
   src: url(TwinkleStar-Regular.ttf);
 }
 
 /* Style for your post box (must start with ".post-box") */
 .post-box {
     background-color: #1e0c32;
-    border: 4px solid #ddb4ff;
+    border-image-width: 20px;
+    border-image: url(imgs/borderimg1.png) 30 round;
     padding: 15px;
     border-radius: 10px;
     color: #f2e6fd;
     font-weight: normal;
-    font-family: 'Twinkle-Star';
 }
 
 .post-box .post-title {
@@ -46,4 +46,5 @@
     font-weight: bold;
     margin-top: 10px;
     margin-bottom: 0px;
-}
+    font-family: 'TwinkleStar';
+}'
