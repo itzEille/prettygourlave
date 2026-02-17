@@ -1,0 +1,69 @@
+body{
+    background-image: url(../../imgs/background.gif);
+    font-family: 'OffBit Trial', sans-serif;
+    padding: 10px
+}
+p {
+    color: #ffffff;
+    margin: 8px;
+}
+.main {
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    flex-direction: column; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    border-width: 5px;
+    border-color: rgb(200, 167, 250);
+    border-radius: 3px;
+}
+
+.back-button{
+    height: 55px;
+}
+
+
+header{
+    display: flex;
+    width: 100%;
+    background-color: purple;
+    background-image: linear-gradient(to right, #af53ff, #f0deff);
+    align-items: center;
+    margin-bottom: 10px;
+    border-color: #ffffff;
+    border-style: solid;
+    border-radius: 3px;
+}
+header h2 {
+    font-family:'Twinkle Star';
+    font-size: xx-large;
+    color: #ffffff;
+    margin: 8px;
+}
+
+article{
+    width: 100%;
+    margin-bottom: 10px;
+    border-color: #ffffff;
+    border-style: solid;
+    border-radius: 3px;
+    background-color: #ffffff54;
+}
+
+a {
+    color: #be92ff;
+}
+
+a:hover {
+    color: #e8d9ff;
+    transition: all 0.2s;
+}
+
+h1 {
+    font-family:'Twinkle Star';
+    font-size: xx-large;
+    color: #ffffff;
+    margin: 8px;
+}
