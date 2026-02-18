@@ -1,3 +1,4 @@
+/*!@nkb "domain":"jbc.lol","rss":"","overflow":false,"readonly":false */
 /* 
     Don't use this file to edit your site style! Create a different CSS file for that.
     This file defines how custom elements (like sitebox) will look like.
@@ -6,14 +7,16 @@
 
 /* Must start with ".site-box". Change how your website will appear on main nekoweb site: https://nekoweb.org/assets/siteboxes.png */
 .site-box {
+    border-style: solid;
+    border-width: 10px;
+    border-image: url(https://prettygourlave.nekoweb.org/prettygourlave.nekoweb.org/imgs/borderimg1.png) 20 round;
     text-align: center;
-    background-image: url(/assets/cookiebox.png); /* Only your-username.nekoweb.org URLs allowed, use FULL url to your file like https://your-username.nekoweb.org/your-username.nekoweb.org/bg.png */
+    background-image: url(https://prettygourlave.nekoweb.org/prettygourlave.nekoweb.org/imgs/background.gif);
     background-repeat: no-repeat;
-    color: #b08271;
     font-size: 12px;
 }
 .site-box > a > p {
-    color: var(--darkbrown);
+    color: #f2e6fd;
     font-weight: bold;
 }
 .site-box > a > span {
@@ -23,10 +26,6 @@
 /* Style for your 'Follow on Nekoweb' button (<iframe src="https://nekoweb.org/frame/follow" frameborder="0" width="170" height="28"></iframe>) */
 .follow {
 
-}
- @font-face {
-  font-family: TwinkleStar;
-  src: url(https://prettygourlave.nekoweb.org/prettygourlave.nekoweb.org/TwinkleStar-Regular.ttf);
 }
 
 /* Style for your post box (must start with ".post-box") */
@@ -43,8 +42,12 @@
 
 .post-box .post-title {
     font-size: 18px;
-    font-weight: bold;
+    font-weight: x-bold;
     margin-top: 10px;
     margin-bottom: 0px;
-    font-family: TwinkleStar;
+    font-family: Arial;
+}
+
+.post-box .post-title :hover{
+  color: #68497b;
 }
