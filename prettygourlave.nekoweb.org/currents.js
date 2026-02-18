@@ -8,7 +8,7 @@ const options = {
 
 const movieDiv = document.getElementById("movieDiv");
 const showDiv = document.getElementById("current-shows");
-const account_id = "${{ secrets.MY_TMDB_USER_ID }}"
+const account_id = "21865221"
 const api_key = "bab8cb9f4dd392736308dc8e5b42b105"
 const movie_api_url = `https://api.themoviedb.org/3/account/${account_id}/watchlist/movies`
 const tv_api_url = `https://api.themoviedb.org/3/account/${account_id}/watchlist/tv`
@@ -39,7 +39,7 @@ async function createShowCard(show){
     let desc = "error"
 
 
-    if (overview.length >= 200) {
+    if (overview.length >= 500) {
       desc = tagline
       console.log(desc)
     }
@@ -61,7 +61,7 @@ async function createShowCard(show){
     showCard.innerHTML = `
             <a href="https://www.themoviedb.org/tv/${id}"><img class="current_show_img" src="https://image.tmdb.org/t/p/original/${poster_path}" alt="${name}"></img> </a>
             <div show_text>
-            <div class="show_header_${header_type}"> <h1>${name}</h1> <p>${number_of_seasons}S</p> </div>
+            <div class="show_header_${header_type}"> <h1>${name}</h1> <p class="nos">${number_of_seasons}S</p> </div>
             <p>${desc}<p>
             </div>
 
@@ -95,7 +95,7 @@ async function createMovieCard(movie){
  
     let desc = "error"
 
-    if (overview.length >= 200) {
+    if (overview.length >= 500) {
       desc = tagline
     }
     else {

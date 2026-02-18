@@ -592,8 +592,14 @@ h3.widget-header {margin: 0px;}
     text-align: justify;
 }
 
-
 .movie_header_regular {
+    text-align: left;
+    display: flex;
+    align-items: baseline
+
+}
+
+.movie_header_regular h1 {
     font-size: medium;
     margin-right: 10px;
     display: flex;
@@ -602,6 +608,12 @@ h3.widget-header {margin: 0px;}
 }
 
 .movie_header_small {
+    text-align: left;
+    display: flex;
+    align-items: baseline
+}
+
+.movie_header_small  h1 {
     font-size: small;
     margin-right: 10px;
     display: flex;
@@ -642,21 +654,32 @@ h3.widget-header {margin: 0px;}
     align-items: center;
 }
 
-.show_header_regular  {
-    font-size: medium;
-    margin-right: 10px;
+.show_header_regular{
     text-align: left;
     display: flex;
-    align-items: baseline;
+    align-items: baseline
+}
+
+.show_header_regular h1  {
+    font-size: 1em;
+    margin-right: 10px;
+;
 }
 
 .show_header_small {
-    font-size: small;
-    margin-right: 10px;
     text-align: left;
     display: flex;
     align-items: baseline;
+
 }
+
+.show_header_small h1{
+    font-size: 0.7em;
+    margin-right: 10px;
+
+}
+
+.show_header_small 
 
 
 #goodreads {
