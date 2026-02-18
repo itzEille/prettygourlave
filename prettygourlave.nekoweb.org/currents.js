@@ -9,7 +9,7 @@ const options = {
 const movieDiv = document.getElementById("movieDiv");
 const showDiv = document.getElementById("current-shows");
 const account_id = "${{ secrets.MY_TMDB_USER_ID }}"
-const api_key = "${{ secret.MY_TMDB_API_KEY }}"
+const api_key = "bab8cb9f4dd392736308dc8e5b42b105"
 const movie_api_url = `https://api.themoviedb.org/3/account/${account_id}/watchlist/movies`
 const tv_api_url = `https://api.themoviedb.org/3/account/${account_id}/watchlist/tv`
 
@@ -31,9 +31,10 @@ async function createShowCard(show){
     const showCard = document.createElement("div");
 
     const response = await fetch(`https://api.themoviedb.org/3/tv/${id}?api_key=${api_key}`)
-    const moreData = await response.json();
-    console.log(moreData)
-    const {tagline, number_of_seasons} = moreData
+    const data = await response.json();
+
+    console.log(data)
+    const {tagline, number_of_seasons} = data
  
     let desc = "error"
 
