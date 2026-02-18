@@ -24,17 +24,17 @@
 .follow {
 
 }
-
  @font-face {
   font-family: TwinkleStar;
-  src: url(https://prettygourlave.nekoweb.org/TwinkleStar-Regular.ttf);
+  src: url(https://prettygourlave.nekoweb.org/prettygourlave.nekoweb.org/TwinkleStar-Regular.ttf);
 }
 
 /* Style for your post box (must start with ".post-box") */
 .post-box {
-    background-image: url(https://prettygourlave.nekoweb.org/imgs/starbackground.jpg);
-    border-image-width: 20px;
-    border-image: url(imgs/borderimg1.png) 30 round;
+    background-image: url(https://prettygourlave.nekoweb.org/prettygourlave.nekoweb.org/imgs/background.gif);
+    border-width: 15px;
+    border-radius: 3px;
+    border-image: url(https://prettygourlave.nekoweb.org/prettygourlave.nekoweb.org/imgs/borderimg1.png) 20 round;
     padding: 15px;
     border-radius: 10px;
     color: #f2e6fd;
@@ -46,7 +46,5 @@
     font-weight: bold;
     margin-top: 10px;
     margin-bottom: 0px;
-    font-family: 'TwinkleStar';
+    font-family: TwinkleStar;
 }
-
-
