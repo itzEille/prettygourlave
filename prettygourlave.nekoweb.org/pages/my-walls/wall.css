@@ -21,7 +21,7 @@ p{text-align: center;}
 }
 
 .album img:hover {
-    width: 225px;
+    opacity: 70%;
     transition: all 0.1s;
 }
 
@@ -45,7 +45,7 @@ button:hover {
 }
 
 .movie:hover {
-    width: 205px;
+    opacity: 70%;
     transition: all 0.1s;
 }
 
