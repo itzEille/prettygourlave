@@ -48,3 +48,15 @@ button:hover {
     width: 225px;
     transition: all 0.1s;
 }
+
+
+  #bottom{
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 5px;
+    position: fixed;
+    bottom: 0px;
+    display: flex;
+    border-color: #d6aff8;
+    background-color:#e0d0ff;
+}
