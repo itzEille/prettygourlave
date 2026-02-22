@@ -36,3 +36,15 @@ button:hover {
      background-color: rgb(160, 91, 219);
      transition: background-color 0.1s;
 }
+
+
+
+.movie {
+    width: 200px;
+    padding: 10px;
+}
+
+.movie:hover {
+    width: 225px;
+    transition: all 0.1s;
+}
