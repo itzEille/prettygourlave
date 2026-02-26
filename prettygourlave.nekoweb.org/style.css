@@ -818,3 +818,9 @@ h3.widget-header {margin: 0px;}
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+.webring{
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 3px;
+}
