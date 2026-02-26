@@ -106,13 +106,14 @@ const headerEl = `
                             <li><a href="${nesting}/pages/blog">blog</a></li>
                             <li><a href="${nesting}/pages/recents">recents</a></li>
                             <li><a href="${nesting}/pages/creds">credits</a></li>
-                            <li><a href="${nesting}/pages/change-log">change-log</a><li>
-                             <div class="dropdown">
-                            <li><a href="/">more</a></li>
-                            <div class="dropdown-content">
-                            <a href="${nesting}/pages/bi-wiki/">bi-wiki</a>
-                            <a href="${nesting}/pages/my-walls">my walls</a>
-                            <a href="${nesting}/pages/fanlistings">fanlistings</a>
+                            <li><a href="${nesting}/pages/change-log">change-log</a></li>
+                            <div class="dropdown">
+                                <li><a href="/">more</a></li>
+                                <div class="dropdown-content">
+                                <a href="${nesting}/pages/bi-wiki/">bi-wiki</a>
+                                <a href="${nesting}/pages/my-walls">my walls</a>
+                                <a href="${nesting}/pages/fanlistings">fanlistings</a>
+                                </div>
                             </div>
                         </ul>         
             </header>    
