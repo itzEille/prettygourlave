@@ -106,13 +106,13 @@ const headerEl = `
                             <li><a href="${nesting}/pages/blog">blog</a></li>
                             <li><a href="${nesting}/pages/recents">recents</a></li>
                             <li><a href="${nesting}/pages/creds">credits</a></li>
+                            <li><a href="${nesting}/pages/change-log">change-log</a><li>
                              <div class="dropdown">
                             <li><a href="/">more</a></li>
                             <div class="dropdown-content">
                             <a href="${nesting}/pages/bi-wiki/">bi-wiki</a>
                             <a href="${nesting}/pages/my-walls">my walls</a>
                             <a href="${nesting}/pages/fanlistings">fanlistings</a>
-                            <a href="${nesting}/pages/change-log">change-log</a>
                             </div>
                         </ul>         
             </header>    
@@ -172,7 +172,7 @@ const headerEl = `
 // You don't need to use the <footer> element, but I recommend it.
 const footerEl = `
 	        <footer class="footer">
-                <h3 class="widget-header">hotlinks</h3>
+                <h4 class="widget-header">banners</h4>
                 <marquee behavior="scroll" direction="left" scrollamount="15" class="blinkies">
                     <a href="https://shishka.neocities.org"></a><img src="${nesting}/imgs/blinkes/nerd-and-proud.gif" alt="nerd-and-proud-blinky"/></a>
                     <a href="https://y2k.neocities.org"></a><img src="${nesting}/imgs/blinkes/purple.gif" alt="i love purple blinky"/></a>
@@ -189,6 +189,7 @@ const footerEl = `
                 <p class="footer_text"> most of the photos on this site are not mines! i did my best to credit everything i could but sometimes it was hard. to view all the credits <a href="${nesting}/pages/creds">here</a></p>
                 <a href="https://nekoweb.org/"><img src="https://nekoweb.org/assets/buttons/button1.gif"></a><!-- button by neconotneko.nekoweb.org -->
                 <a href="https://petrapixel.neocities.org/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/petracoding/petrapixel.neocities.org@latest/public/assets/img/linkback.gif" alt="petrapixel"></a>
+                                   <a href="/"><img src="../../imgs/mybutton.gif"></a>
             </footer>
             
 `;
