@@ -60,3 +60,7 @@ button:hover {
     border-color: #d6aff8;
     background-color:#e0d0ff;
 }
+
+a {
+    color: rgb(67, 56, 42);
+}
