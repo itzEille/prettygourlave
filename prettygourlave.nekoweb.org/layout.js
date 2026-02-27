@@ -188,9 +188,11 @@ const footerEl = `
                     <a href="https://www.deviantart.com/radiotrophic/art/PROUD-SIMMER-blinkie-F2U-1077113565"><img src="${nesting}/imgs/blinkes/simmer.gif" alt="proud simmer" />
                 </marquee>
                 <p class="footer_text"> most of the photos on this site are not mines! i did my best to credit everything i could but sometimes it was hard. to view all the credits <a href="${nesting}/pages/creds">here</a></p>
+                <p>sites i like</p>
                 <a href="https://nekoweb.org/"><img src="https://nekoweb.org/assets/buttons/button1.gif"></a><!-- button by neconotneko.nekoweb.org -->
                 <a href="https://petrapixel.neocities.org/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/petracoding/petrapixel.neocities.org@latest/public/assets/img/linkback.gif" alt="petrapixel"></a>
-                                   <a href="/"><img src="../../imgs/mybutton.gif"></a>
+                <a href="https://gucio.nekoweb.org"><img src="https://files.catbox.moe/miez0h.png"></a>
+                
             </footer>
             
 `;
