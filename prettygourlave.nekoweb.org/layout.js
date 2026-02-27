@@ -194,7 +194,7 @@ const footerEl = `
                 <a href="https://nekoweb.org/"><img src="https://nekoweb.org/assets/buttons/button1.gif"></a><!-- button by neconotneko.nekoweb.org -->
                 <a href="https://petrapixel.neocities.org/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/petracoding/petrapixel.neocities.org@latest/public/assets/img/linkback.gif" alt="petrapixel"></a>
                 <a href="https://gucio.nekoweb.org"><img src="https://files.catbox.moe/miez0h.png"></a>
-                <a href="/"><img src="${nesting}/imgs/my-button.gif"></a>
+                <a href="${nesting}"><img src="${nesting}/imgs/my-button.gif"></a>
 
             </footer>
             
