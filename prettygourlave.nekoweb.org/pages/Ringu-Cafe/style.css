@@ -1,0 +1,13 @@
+body {
+    background-image: url(https://i.pinimg.com/1200x/db/e3/35/dbe335bb5da210dd4114ce8d11d3fe50.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    background-color: rgb(196, 114, 47);
+
+}
+
+#main {
+    border: solid transparent 10px;
+    border-image: url(https://foollovers.com/mat/t-frame/frame04-a/back01.gif);
+    width: 50%;
+}

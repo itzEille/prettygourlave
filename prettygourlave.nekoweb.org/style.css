@@ -554,6 +554,7 @@ h3.widget-header {margin: 0px;}
 .subtitle {
     font-size: xx-small;
     margin: 0px;
+    padding-left: 5px;
 }
 
 #movieDiv {
@@ -834,4 +835,9 @@ h3.widget-header {margin: 0px;}
     border: 2px solid;
     border-radius: 3px;
     margin: 10px;
+}
+
+#badges{
+    display: flex;
+    flex-direction: row;
 }
