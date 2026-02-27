@@ -164,7 +164,9 @@ const headerEl = `
                 <section class="widget">
                     <iframe width="100%" height="250" scrolling="yes" src="https://gifypet.neocities.org/pet/pet.html?name=Fancy&dob=1770342858&gender=f&element=Water&pet=cat.gif&map=night.gif&background=paper.jpg&tablecolor=%23e0d0ff&textcolor=%23a577ff" frameborder="0"></iframe>
                 </section>
-                <section
+                <h4 class="3">neighbor's!</h4>
+                <section class="widget">
+                </section>
             </aside>
 	
 `;
@@ -188,11 +190,11 @@ const footerEl = `
                     <a href="https://www.deviantart.com/radiotrophic/art/PROUD-SIMMER-blinkie-F2U-1077113565"><img src="${nesting}/imgs/blinkes/simmer.gif" alt="proud simmer" />
                 </marquee>
                 <p class="footer_text"> most of the photos on this site are not mines! i did my best to credit everything i could but sometimes it was hard. to view all the credits <a href="${nesting}/pages/creds">here</a></p>
-                <p>sites i like</p>
+                <p><b>sites i like<b></p>
                 <a href="https://nekoweb.org/"><img src="https://nekoweb.org/assets/buttons/button1.gif"></a><!-- button by neconotneko.nekoweb.org -->
                 <a href="https://petrapixel.neocities.org/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/petracoding/petrapixel.neocities.org@latest/public/assets/img/linkback.gif" alt="petrapixel"></a>
                 <a href="https://gucio.nekoweb.org"><img src="https://files.catbox.moe/miez0h.png"></a>
-                
+
             </footer>
             
 `;
