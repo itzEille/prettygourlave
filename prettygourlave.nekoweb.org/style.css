@@ -829,3 +829,9 @@ h3.widget-header {margin: 0px;}
     color: black;
     font-size: small ;
 }
+
+#neighbors {
+    border: 2px solid;
+    border-radius: 3px;
+    margin: 10px;
+}
