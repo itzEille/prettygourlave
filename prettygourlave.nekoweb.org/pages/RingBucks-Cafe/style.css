@@ -1,7 +1,7 @@
 body {
     background-image: url(https://i.pinimg.com/1200x/db/e3/35/dbe335bb5da210dd4114ce8d11d3fe50.jpg);
     background-repeat: no-repeat;
-    background-size: 100% ;
+    background-size: 100% 100vh;
     background-color: rgb(196, 114, 47);
 
 }
@@ -12,9 +12,11 @@ body {
     background-color: rgb(255, 255, 255);
     background-clip:content-box;
     width: 70%;
-    height: 700px;
+    height: 90vh;
+    overflow: scroll;
     margin-left: auto;
     margin-right: auto;
+        font-family: 'Chiron GoRound TC';
 }
 
 h1 {
@@ -28,11 +30,52 @@ h2 {
     font-family: 'Borel';
     color: #2b1f10;
     margin-left: 10px;
+    margin-bottom: 0px;
+}
+
+h3 {
+    font-family: 'Borel';
+    color: #9d733f;
+    margin-left: 10px; 
+    margin-bottom: 0px;
+}
+
+p{
+    font-family: 'Chiron GoRound TC';
+    margin-left: 10px; 
+    margin-right: 10px; 
+    margin-top: 0px;
+}
+
+span{
+    font-family: 'Chiron GoRound TC';
+    margin-left: 10px; 
+    margin-right: 10px; 
+    margin-top: 0px;
+}
+
+li{
+    font-family: 'Chiron GoRound TC';
+    margin-left: 10px; 
+    margin-right: 10px; 
+    margin-top: 0px;
+}
+
+a{
+    color: #467458;
+}
+a:hover{
+    color: #9bbca8;
 }
 
 nav{
     margin-right: auto;
     margin-left: auto;
+}
+
+article{
+     margin-left: 10px; 
+    margin-right: 10px; 
 }
 
 .coffee_nav{
@@ -52,7 +95,13 @@ nav{
 }
 
 .coffee_cup:hover p {
-    text-shadow: 10px 10px 10px #fff, 1px 1px 10px #a8a0ff;
+    text-shadow: 10px 10px 10px #fff, 1px 1px 10px #e6ffef;
+}
+.coffee_cup a{
+    color: #fff;
+}
+.coffee_cup:hover a{
+    color: #467458;
 }
 
 
@@ -64,8 +113,44 @@ nav{
 
 .nav_text{
      position: absolute;
-    top: 40%;
-    left: 50%;
+    top: 59%;
+    left: 33%;
     transform: translate(-50%, -50%);
     line-height: 10px;
 }
+
+.item{
+    display: flex;
+    flex-direction: column;
+     align-items:center;
+     border-bottom: solid 10px #9d733f;
+     width: 200px;
+     text-align: center;
+}
+.item img{
+    height: 100px;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* Add dots under the hoverable text */
+  cursor: pointer;
+}
+
+.tooltiptext {
+  visibility: hidden; /* Hidden by default */
+  width: 130px;
+  background-color: black;
+  color: #ffffff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1; /* Ensure tooltip is displayed above content */
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
