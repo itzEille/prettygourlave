@@ -1,0 +1,71 @@
+body {
+    background-image: url(https://i.pinimg.com/1200x/db/e3/35/dbe335bb5da210dd4114ce8d11d3fe50.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    background-color: rgb(196, 114, 47);
+
+}
+
+#main {
+    border: solid 20px;
+    border-image: url(https://64.media.tumblr.com/900e56b32f3763868d8e5fa4f82ec6f1/23a43dcdd0fb50e4-31/s400x600/e0c208a5222d732a76f1043fac9541e024c4be3d.pnj) 30 round;
+    background-color: rgb(255, 255, 255);
+    background-clip:content-box;
+    width: 70%;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Borel';
+    color: #563e1f;
+    margin-bottom: 0px;
+}
+
+h2 {
+    font-family: 'Borel';
+    color: #2b1f10;
+    margin-left: 10px;
+}
+
+nav{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.coffee_nav{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: solid 10px rgb(167, 119, 84);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.coffee_cup img{
+    height: 100px;
+}
+
+.coffee_cup:hover {
+    rotate: 30deg;
+}
+
+.coffee_cup:hover p {
+    text-shadow: 10px 10px 10px #fff, 1px 1px 10px #a8a0ff;
+}
+
+
+.coffee_cup{
+     position: relative;
+    text-align: center;
+    color: white;
+}
+
+.nav_text{
+     position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 10px;
+}
