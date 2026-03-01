@@ -119,6 +119,13 @@ article{
     line-height: 10px;
 }
 
+
+#menu{
+    display: flex;
+    flex-direction: row;
+}
+
+
 .item{
     display: flex;
     flex-direction: column;
