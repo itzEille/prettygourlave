@@ -113,6 +113,7 @@ const headerEl = `
                                 <a href="${nesting}/pages/bi-wiki/">bi-wiki</a>
                                 <a href="${nesting}/pages/my-walls">my walls</a>
                                 <a href="${nesting}/pages/fanlistings">fanlistings</a>
+                                <a href="${nesting}/pages/site-map">site map</a>
                                 </div>
                             </div>
                         </ul>         
