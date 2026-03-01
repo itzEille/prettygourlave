@@ -145,6 +145,8 @@ const headerEl = `
                 <h4 class="widget-header">my to-do list</h4>
                 <section id="to-do-list" class="widget">
                     <ul>
+                    <li>make extended socials page</li>
+                    <li>make site map</li>
                     <li>make new girl fanlisttings</li>
                     <li>make abbott elemetary fanlistings</li>
                     <li> make the lunar chronicles fanlistings</li>
