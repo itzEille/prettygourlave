@@ -11,4 +11,4 @@
 | Age | 19 |
 
 ## Evidence Of Bisexuality
-In Gen V Marie is in a relationship with [Jordan Li](/pages/bi-wiki/characters/jordan-li.md) a Bi-gender Supe. She show attraction for Jordans Male and Female form!
+In Gen V Marie is in a relationship with [Jordan Li](/pages/bi-wiki/characters/jordan-li.md) a Bi-gender Supe. She shows attraction for Jordans Male and Female form!

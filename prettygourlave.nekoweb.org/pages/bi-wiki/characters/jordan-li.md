@@ -12,7 +12,7 @@
 | Full Name | Jordan Li |
 | ----------- | ----------- |
 | Media | Gen V (Tv show)  |
-| Fandom | The Boys |
+| Fandom | [The Boys](/pages/bi-wiki/catergory/fandom-The_Boys) |
 | Canon | Yes |
 | Gender | Bigender |
 | Age | Early 20s |
