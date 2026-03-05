@@ -9,7 +9,7 @@
 
 }
 
-.main img{
+.hero{
   width: 600px;  
   height: auto;
   border-style: solid;
@@ -74,3 +74,4 @@ h2 {
     margin: 5px;
     padding: 5px;
 }
+
