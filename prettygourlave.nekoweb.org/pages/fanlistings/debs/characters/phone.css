@@ -7,7 +7,7 @@ display: flex;
   align-items: center;
 }
 #phone{
-    height: 100%;
+    height: 98.9vh;
     z-index: 4;
     position:absolute;
     pointer-events: none;
@@ -39,7 +39,7 @@ display: flex;
     position: fixed;
     padding-left: 10px;
     margin-right: auto;
-    top: 10.5%;
+    top: 11.5%;
 }
 
 #phone_header{
@@ -47,11 +47,12 @@ display: flex;
     background: linear-gradient(180deg,rgba(255, 255, 255, 1) 1%, rgba(167, 169, 207, 1) 30%, rgba(85, 86, 120, 1) 100%);
     border-bottom: solid 1px #364152;
     display: flex;
-    gap: 50px;
-    padding-left: 20px;
+    gap: 23px;
+    justify-content: center;
+    align-items:center;
 }
 .header {
-    font-size: 2em;
+    font-size: 1.2em;
     margin: 0px;
     font-family: monospace;
     color: aliceblue;
@@ -130,5 +131,21 @@ h3{
 
 .personInfo{
     margin-left: 15px;
-    background-color: #798699;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 275px;
+    overflow: scroll;
+    background-color: #57a6b6;
+    font-family: monospace;
+    color: #ffffff;
 }
+
+.personInfo img{
+    width: 455px;
+}
+
+.personInfo h3{
+    color: #d4d4d4;
+    margin: 0px;
+}
+
