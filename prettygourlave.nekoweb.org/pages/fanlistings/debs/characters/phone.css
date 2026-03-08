@@ -125,10 +125,6 @@ h3{
     transition: all 0.1s;
 }
 
-.fullBodyPic{
-    height:  270px;
-}
-
 .personInfo{
     margin-left: 15px;
     background-repeat: no-repeat;
@@ -149,3 +145,22 @@ h3{
     margin: 0px;
 }
 
+.personInfo_lucy{
+    margin-left: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 275px;
+    overflow: scroll;
+    background-color: #ca060a;
+    font-family: monospace;
+    color: #dddddd;
+}
+
+.personInfo_lucy img{
+    width: 455px;
+}
+
+.personInfo_lucy h3{
+    color: #000000;
+    margin: 0px;
+}
