@@ -34,12 +34,9 @@ display: flex;
 }
 
 #phone_contacts{
-    width: 475px;
     z-index: 1;
-    position: fixed;
     padding-left: 10px;
     margin-right: auto;
-    top: 11.5%;
 }
 
 #phone_header{
@@ -126,17 +123,17 @@ h3{
 }
 
 .personInfo{
+    max-height: 50vh;
     margin-left: 15px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-height: 275px;
     overflow: scroll;
     background-color: #57a6b6;
     font-family: monospace;
     color: #ffffff;
+    display: flex;
+    flex-direction: column;
 }
 
-.personInfo img{
+.heroImg{
     width: 455px;
 }
 
@@ -163,4 +160,35 @@ h3{
 .personInfo_lucy h3{
     color: #000000;
     margin: 0px;
+}
+
+.buttonHeader{
+    color: #6a6a6a;
+    font-family: 'Orbitron';
+
+}
+
+.buttonGrid{
+
+}
+
+.buttonGrid img{
+    height: 50px;
+}
+
+.phone_window{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    top: -10vh;
+    width: 40%;
+    height: 84vh;
+}
+
+@media (width <= 1650px) {
+  .phone_window{
+    position: relative;
+    
+  }
 }
