@@ -68,6 +68,10 @@ h2 {
     color: #7475a2;
 }
 
+h3{
+    margin: 10px;
+}
+
 .member{
     border-style: dashed;
     border-width: 1px;
@@ -75,7 +79,46 @@ h2 {
     padding: 5px;
 }
 
+.form600px{
+        display: block;}
+ .form400px{
+        display: none;}
 
+#character-select{
+    display: flex;
+    gap: 1px;
+    max-width: 600px;
+    overflow: scroll;
+}
+
+
+#character-select img{
+    width: 110px;
+    height: 110px;
+    border: solid #555677 3px;
+}
+
+#character-select img:hover{
+    -webkit-box-shadow:0px 0px 75px 21px rgba(85,86,119,0.9);
+    -moz-box-shadow: 0px 0px 75px 21px rgba(85,86,119,0.9);
+    box-shadow: 0px 0px 75px 21px rgba(85,86,119,0.9);
+    transition: all 0.5s;
+}
+
+.character{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.heroImg{
+    width: 600px;
+}
+
+.button-grid{
+    margin: 10px;
+}
 
 @media (width <= 600px ){
     .hero{
@@ -84,6 +127,15 @@ h2 {
     width: 400px;}
     article {
     width: 400px;}
-    #form600px{
+    .form600px{
         display: none;}
+    .form400px{
+        display: block;}
+    #character-select{
+        flex-direction: column;
+    }
+    .heroImg{
+    width: 400px;
 }
+}
+
