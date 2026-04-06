@@ -40,6 +40,11 @@ h1, h2{
     width: 32%;
 }
 
+.site-box:hover{
+    opacity: 40%;
+    transition: all 0.5s;
+}
+
 .site-box *{
     margin: 0px;
 }
