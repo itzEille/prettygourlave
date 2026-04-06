@@ -10,6 +10,15 @@ header{
     background-color: #502a50;
     margin: 0px;
     padding: 10px;
+    display: flex;
+    gap: 15px;
+}
+
+#back{
+    background-color: #ECD0EC;
+    border-radius: 5px;
+    font-family: Outfit;
+    border: #ba71a2;
 }
 
 .pagetitle{
@@ -77,9 +86,9 @@ h1, h2{
 
 .price-box{
     border: solid #502a50 4px;
-    width: 20%;
     text-align: center;
     border-radius: 5px;
+    min-width: 30%;
     background-color: #fbeafc;
     box-shadow: 2px 6px 14px rgba(0, 0, 0, 0.42);
 }
@@ -102,4 +111,11 @@ summary{
     font-size: larger;
     margin-bottom: 10px;
    
+}
+
+@media (width <= 800px){
+    #pricing{
+        flex-direction: column;
+       
+    }
 }
