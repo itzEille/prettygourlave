@@ -11,6 +11,7 @@ header{
     margin: 0px;
     padding: 10px;
     display: flex;
+    align-items: center;
     gap: 15px;
 }
 
@@ -19,6 +20,12 @@ header{
     border-radius: 5px;
     font-family: Outfit;
     border: #ba71a2;
+    padding: 11px;
+}
+
+#back:hover{
+     background-color: #ac93ac;
+     transition: all 0.5s;
 }
 
 .pagetitle{
