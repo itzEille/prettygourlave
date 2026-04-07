@@ -15,15 +15,15 @@ header{
     gap: 15px;
 }
 
-#back{
+button{
     background-color: #ECD0EC;
     border-radius: 5px;
     font-family: Outfit;
-    border: #ba71a2;
+    border: solid #ba71a2;
     padding: 11px;
 }
 
-#back:hover{
+button:hover{
      background-color: #ac93ac;
      transition: all 0.5s;
 }
